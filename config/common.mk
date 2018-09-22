@@ -54,9 +54,7 @@ PRODUCT_COPY_FILES += \
     vendor/cm/prebuilt/common/bin/handle_compcache:system/bin/handle_compcache
 
 PRODUCT_COPY_FILES +=  \
-    vendor/cm/proprietary/Term.apk:system/app/Term.apk \
-    vendor/cm/proprietary/lib/armeabi/libjackpal-androidterm4.so:system/lib/libjackpal-androidterm4.so \
-	vendor/cm/prebuilt/common/apps/Superuser.apk:system/app/Superuser.apk
+    vendor/cm/prebuilt/common/apps/Superuser.apk:system/app/Superuser.apk
 
 # Bring in camera effects
 PRODUCT_COPY_FILES +=  \
@@ -85,6 +83,10 @@ PRODUCT_PACKAGES += \
     LatinIME \
     SpareParts \
     su
+
+# Terminal Emulator
+PRODUCT_PACKAGES += \
+    Terminal
 
 # Optional CM packages
 PRODUCT_PACKAGES += \
