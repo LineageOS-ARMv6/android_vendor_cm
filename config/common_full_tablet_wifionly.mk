@@ -22,8 +22,3 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # BT config
 PRODUCT_COPY_FILES += \
     system/bluetooth/data/main.nonsmartphone.conf:system/etc/bluetooth/main.conf
-
-ifeq ($(TARGET_BOOTANIMATION_NAME),)
-    PRODUCT_COPY_FILES += \
-        vendor/cm/prebuilt/common/bootanimation/horizontal-1280x800.zip:system/media/bootanimation.zip
-endif
