@@ -1,7 +1,7 @@
-CyanogenMod
+LineageOS
 ===============
 
-Maintainers (CyanogenMod 9):
+Maintainers (LineageOS 9):
 ------------
 * __Asus EeePad Transformer (TF101):__ Bumble-Bee, EnJens
 * __Asus EeePad Transformer Prime (TF201):__ Bumble-Bee, EnJens

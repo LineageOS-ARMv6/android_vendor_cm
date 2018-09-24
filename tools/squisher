@@ -1,6 +1,6 @@
 #!/bin/sh
 #
-# Squish a CM otapackage for distribution
+# Squish a LineageOS otapackage for distribution
 # cyanogen
 #
 
@@ -78,7 +78,7 @@ rm -rf $REPACK/ota/recovery
 
 # Determine what to name the new signed package
 MODVERSION=`sed -n -e'/ro\.cm\.version/s/^.*=//p' $REPACK/ota/system/build.prop`
-OUTFILE=$OUT/cm-$MODVERSION.zip
+OUTFILE=$OUT/lineage-$MODVERSION.zip
 echo MODVERSION: $MODVERSION
 
 # Pack it up and sign
